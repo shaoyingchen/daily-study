@@ -47,9 +47,6 @@ public class Kruskal {
         }
 
         public void unionSet(Node a, Node b) {
-            if (fatherMap.get(a) == fatherMap.get(b)) {
-                return;
-            }
             Node parentA = fatherMap.get(a);
             Node parentB = fatherMap.get(b);
             Node large = sizeMap.get(parentA) > sizeMap.get(parentB) ? parentA : parentB;
@@ -71,7 +68,7 @@ public class Kruskal {
 
         while (!priorityQueue.isEmpty()) {
             Edge poll = priorityQueue.poll();
-            if (poll.from != poll.to) {
+            if (unionFind.sameUnion(poll.from, poll.to)) {
                 ans.add(poll);
                 unionFind.unionSet(poll.from, poll.to);
             }
