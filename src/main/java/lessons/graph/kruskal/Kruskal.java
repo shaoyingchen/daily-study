@@ -7,7 +7,7 @@ import lessons.graph.Node;
 import java.util.*;
 
 /**
- * K算法，解决图的最小路径问题
+ * K算法，解决图的最小路径问题（利用并查集）
  *
  * @author chensy6
  * @CreateDate 2022/2/17 14:18
