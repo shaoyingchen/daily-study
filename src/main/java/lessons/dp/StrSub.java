@@ -19,7 +19,7 @@ public class StrSub {
 
         char[] strs = str.toCharArray();
         String path = "";
-        fun(strs, 0, "", ans);
+        fun(strs, 0, path, ans);
         return ans;
     }
 
@@ -28,7 +28,9 @@ public class StrSub {
             ans.add(path);
             return;
         }
+        //当前位置要
         fun(strs, index + 1, path, ans);
+        //当前位置不要
         fun(strs, index + 1, path + strs[index], ans);
     }
 
