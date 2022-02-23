@@ -68,7 +68,7 @@ public class Kruskal {
 
         while (!priorityQueue.isEmpty()) {
             Edge poll = priorityQueue.poll();
-            if (unionFind.sameUnion(poll.from, poll.to)) {
+            if (!unionFind.sameUnion(poll.from, poll.to)) {
                 ans.add(poll);
                 unionFind.unionSet(poll.from, poll.to);
             }
