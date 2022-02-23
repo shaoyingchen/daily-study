@@ -1,6 +1,5 @@
 package lessons.graph.topologySort;
 
-import lessons.graph.Edge;
 import lessons.graph.Graph;
 import lessons.graph.Node;
 
