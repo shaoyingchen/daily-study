@@ -13,8 +13,6 @@ import java.util.function.Supplier;
  * BiConsumer
  *
  * @author chensy6@asiainfo.com
- * @Company 亚信科技
- * @Copyright asiainfo
  * @CreateDate 2021/5/27 14:40
  **/
 public class FunctionInterfaceTest {
