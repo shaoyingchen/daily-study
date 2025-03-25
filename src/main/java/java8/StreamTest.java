@@ -9,9 +9,6 @@ import java.util.stream.Stream;
 /**
  * Stream
  *
- * @author chensy6@asiainfo.com
- * @Company 亚信科技
- * @Copyright asiainfo
  * @CreateDate 2021/5/26 16:31
  **/
 public class StreamTest {
