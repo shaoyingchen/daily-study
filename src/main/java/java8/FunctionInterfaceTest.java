@@ -12,7 +12,6 @@ import java.util.function.Supplier;
  * UnaryOperator
  * BiConsumer
  *
- * @author chensy6@asiainfo.com
  * @CreateDate 2021/5/27 14:40
  **/
 public class FunctionInterfaceTest {
