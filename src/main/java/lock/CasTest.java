@@ -8,9 +8,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
 /**
- * @author chensy6@asiainfo.com
- * @Company 亚信科技
- * @Copyright asiainfo
+ * @author chensy6
  * @CreateDate 2021/4/13 16:09
  **/
 public class CasTest {
